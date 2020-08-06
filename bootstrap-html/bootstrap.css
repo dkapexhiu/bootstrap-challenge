@@ -1,0 +1,69 @@
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+.card-title {
+    border-bottom: 1px solid green;
+}
+.btn-light {
+    border: 1px solid #007bff!important;
+    color: #007bff!important;
+}
+.bigCard .card-title {
+    padding-bottom: 40px;
+}
+.img-square-wrapper {
+    padding: 15px;
+}
+.card {margin-bottom: 20px;}
+.btn {
+    float:left;
+    margin-right: 10px;
+}
+.container{
+    background-color: grey;
+    margin-top: 5%;
+    padding: 2% 2% 2% 2%;
+}
+@media all and (max-width: 480px){
+    .container{
+        padding: 1% 1% 1% 1%;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    .mb-5,
+    .mt-5 {
+      margin-bottom: 2rem !important;
+      margin-top: 1rem !important;
+    }
+    .mb-2,
+    .mt-2 {
+      margin-bottom: 1rem !important;
+      margin-top: 1rem !important;
+    }
+    .bigCard .card-title {
+      padding-bottom: 20px !important;
+    }
+    .smallCard {
+      margin-bottom: 8px !important;
+    }
+  }
+  @media all and (min-width: 1024px) and (max-width: 1365px) {
+    .mb-5,
+    .mt-5 {
+      margin-bottom: 2rem !important;
+      margin-top: 1rem !important;
+    }
+    .mb-2,
+    .mt-2 {
+      margin-bottom: 1rem !important;
+      margin-top: 1rem !important;
+    }
+    .bigCard .card-title {
+      padding-bottom: 20px !important;
+    }
+    .smallCard {
+      margin-bottom: 5px !important;
+    }
+  }
+  

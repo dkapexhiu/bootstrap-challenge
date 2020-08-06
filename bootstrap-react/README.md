@@ -1,0 +1,3 @@
+- install node and npm
+- run npm install on directory
+- run npm start to see the app

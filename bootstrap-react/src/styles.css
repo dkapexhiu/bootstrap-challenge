@@ -1,0 +1,77 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+.cardHorizontal {
+  margin-bottom: 24px;
+}
+.cardHorizontal img {
+  padding: 15px;
+}
+.container {
+  background: grey;
+  padding: 2% 2% 0% 2%;
+  margin-top: 3%;
+}
+.card-title {
+  text-align: left;
+  border-bottom: 1px solid green;
+  font-size: 20px;
+}
+.card-text {
+  text-align: left;
+}
+.verticalCard .card-title {
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+.btn-light {
+  border: 1px solid #007bff !important;
+  color: #007bff !important;
+}
+.verticalCard {
+  margin-bottom: 20px;
+}
+.btn {
+  float: left;
+}
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .mb-5,
+  .mt-5 {
+    margin-bottom: 2rem !important;
+    margin-top: 2rem !important;
+  }
+  .mb-2,
+  .mt-2 {
+    margin-bottom: 0rem !important;
+    margin-top: 0rem !important;
+  }
+  .verticalCard .card-title {
+    padding-bottom: 20px !important;
+  }
+  .cardHorizontal {
+    margin-bottom: 14px !important;
+  }
+}
+@media all and (min-width: 1024px) and (max-width: 1365px) {
+  .mb-5,
+  .mt-5 {
+    margin-bottom: 2rem !important;
+    margin-top: 2rem !important;
+  }
+  .mb-2,
+  .mt-2 {
+    margin-bottom: 2rem !important;
+    margin-top: 2rem !important;
+  }
+  .verticalCard .card-title {
+    padding-bottom: 20px !important;
+  }
+  .cardHorizontal {
+    margin-bottom: 25px !important;
+  }
+}
